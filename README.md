@@ -18,7 +18,7 @@ When evaluate the model using test data, the model yield a Loss of 0.5567 and Ac
 ...The model that I chose has 3 hidden layers with 100 neurons on the first 2 layers and 50 neurons for the last layer
 #### 2. Were you able to achieve target model performance?
 ...I was not able to achieve the target predictive accuracy higher than 75%. My best accuracy was 73%
-### 3. What steps did you take to try and increase model performance?
+#### 3. What steps did you take to try and increase model performance?
 ...I tried several different strategies to increase the model performane including:
 - increase the number of neurons per layer to 500
 - increase number of hidden layers to 6
@@ -26,5 +26,5 @@ When evaluate the model using test data, the model yield a Loss of 0.5567 and Ac
 - increase epochs to 100
 ...However, after running the model for a while, performance decreased instead of increase. The final model is my best guess on the test data so far.
 
-### 4. If you were to implement a different model to solve this classification problem, which would you choose and why?
+#### 4. If you were to implement a different model to solve this classification problem, which would you choose and why?
 ...I would probably go with Random forest classifier. Random forest models use a number of weak learner algorithms and combine their output to make a final decision. The model is robust and can easily handle outliers and nonlinear tabular data, which is the same with the charity dataset we're dealing with.
