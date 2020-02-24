@@ -3,7 +3,7 @@ In this project, I build a machine learning model to predict the success of char
 
 The complete notebook to the project can be found [here](https://github.com/Thinguyen23/Thi_Neural_Networks/blob/master/AlphabetSoupChallenge.ipynb)
 ## Data Preprocesing
-Starting with the [Alphabet Soup Charity dataset](https://github.com/Thinguyen23/Thi_Neural_Networks/blob/master/charity_data.csv), I first preprocess by
+Starting with the [Alphabet Soup Charity dataset](https://github.com/Thinguyen23/Thi_Neural_Networks/blob/master/charity_data.csv), I first preprocess the dataset by
 - filtering out non-feature variables ("NAME" and "STATUS")
 - Categorical binning for rare categorical values ("APPLICATION_TYPE" and "CLASSIFICATION")
 - Using OneHotEncoder to encode categorical variables
